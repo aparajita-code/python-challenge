@@ -38,7 +38,6 @@ with open('Resources/election_data.csv', 'r') as csvfile:
         outfile.write(f'{value}: {count} : {percentage:.2f}%\n')
         outfile.write("------------------------\n")
         outfile.write(f"Winner : {winner}")
-
     # TODO Need to write all the Candidate info in the file and their count.
 
 
